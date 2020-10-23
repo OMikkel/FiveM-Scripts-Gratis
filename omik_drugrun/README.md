@@ -17,7 +17,7 @@
 
 ### Eksempel
 **Eksempel #1** (god til discordposts)
-- **Creator:** OMikkel#3217
+- **Lavet af:** OMikkel#3217
 - **Script:** omik_drugrun
 
 **Eksempel #2** (god til changelog)
