@@ -1,5 +1,5 @@
 # FiveM-vRP-Scripts-Gratis
 Dette repo indeholder alle de gratis udgivelser jeg har lavet
 
-## Omik_attachments showcase
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+## omik_attachments showcase
+[![Watch the video](https://img.youtube.com/vi/-dScY_cAWdQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=-dScY_cAWdQ)
