@@ -63,7 +63,6 @@ end
 function AddComponent(attachment)
     local Ped = GetPlayerPed(-1)
     local isHoldingWeapon, selectedWeapon = GetCurrentPedWeapon(Ped)
-    print(isHoldingWeapon, selectedWeapon, attachment)
     if attachment ~= nil then
         GiveWeaponComponentToPed(Ped, selectedWeapon, GetHashKey(attachment))
     end
