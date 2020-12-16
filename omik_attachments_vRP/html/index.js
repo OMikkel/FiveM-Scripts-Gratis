@@ -36,7 +36,6 @@ document.onkeyup = function (data) {
 };
 
 function AddAttachmentCard(item, index) {
-    console.log(item, index)
     $( "#attachments" ).append('<div class="attachment-card">' +
         '<div id="container">' +
             '<h4><b>' + item[0] + '</b></h4> ' +
