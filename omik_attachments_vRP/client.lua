@@ -1,6 +1,12 @@
 -- Lavet af: OMikkel#3217
 -- Script: omik_attachments
 
+vRPc = {}
+vRP = Proxy.getInterface("vRP")
+Tunnel.bindInterface("omik_attachments",vRPc)
+Proxy.addInterface("omik_attachments",vRPc)
+OMserver = Tunnel.getInterface("omik_attachments","omik_attachments")
+
 RegisterNetEvent("omik_attachments:CloseMenu")
 AddEventHandler("omik_attachments:CloseMenu", function()
     CloseMenu()
@@ -35,7 +41,8 @@ Citizen.CreateThread(function()
                 end
                 if IsControlJustReleased(0, Config.hotkey[2]) then
                     if Config.weapons[selectedWeapon] ~= nil then
-                        OpenMenu(tostring(selectedWeapon))
+                        OMserver.hasPlayerPermission({selectedWeapon})
+                        --OpenMenu(tostring(selectedWeapon))
                     end
                 end
             end
@@ -73,7 +80,7 @@ function CloseMenu()
     SetNuiFocus(false, false)
     SendNUIMessage({status = "CloseMenu"})
 end
-function OpenMenu(selectedWeapon)
+function vRPc.OpenMenu(selectedWeapon)
     SetNuiFocus(true, true)
     SendNUIMessage({status = "OpenMenu", action = "AddAttachments", table = Config.attachments[selectedWeapon], info = Config.weapons[selectedWeapon]})
 end
