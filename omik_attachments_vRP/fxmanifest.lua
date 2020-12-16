@@ -10,11 +10,15 @@ ui_page "html/index.html"
 
 client_scripts {
     "config.lua",
+    "lib/Tunnel.lua",
+    "lib/Proxy.lua",
     "client.lua"
 }
 
 server_scripts {
     "config.lua",
+    "@mysql-async/lib/MySQL.lua",
+    "@vrp/lib/utils.lua",
     "server.lua"
 }
 
