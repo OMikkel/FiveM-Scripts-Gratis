@@ -4,7 +4,7 @@ Config = {}
 
 Config.hotkey = {true, 38} -- E {Hotkey aktiveret true/false, hotkeyknap https://docs.fivem.net/docs/game-references/controls/}
 
-Config.openPerm = {"police.menu"}
+Config.openPerm = "police.menu"
 
 Config.reach = 1.5
 Config.visible = 100.0
