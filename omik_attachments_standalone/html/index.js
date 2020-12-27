@@ -23,14 +23,14 @@ $(document).ready( function () {
 $(document).on('click', '#equip', function() {
 	var $button = $(this);
 	var $name = $button.attr("name")
-    $.post("http://omik_attachments/AttachExtra", JSON.stringify({
+    $.post("http://omik_attachments_standalone/AttachExtra", JSON.stringify({
         attachment: $name
     }));
 }) ;
 
 document.onkeyup = function (data) {
     if (data.which == 27) {
-        $.post("http://omik_attachments/CloseMenu", JSON.stringify({}));
+        $.post("http://omik_attachments_standalone/CloseMenu", JSON.stringify({}));
         return
     }
 };
