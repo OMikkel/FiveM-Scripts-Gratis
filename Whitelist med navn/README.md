@@ -12,4 +12,4 @@
 - **#4** Genstart serveren og whitelist mennesker
 
 ## GOD FORNØJELSE MED DET, INGEN SUPPORT PÅ DET HER!!
-## Kan du ikke finde ud af det, så lad vær med at spam mig
+## Kan du ikke finde ud af det, så lad vær
