@@ -2,7 +2,7 @@
 **______________________________**
 
 ## Installation
--- **#1** Navngiv resourcen til omik_attachments VIGTIGT!!
+- **#1** Navngiv resourcen til omik_attachments VIGTIGT!!
 
 - **#2** Start resourcen i din resources CFG (start omik_attachments)
 
